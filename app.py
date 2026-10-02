@@ -5,10 +5,10 @@ import os
 
 app = Flask(__name__)
 # Use a secure secret key for sessions (can be an environment variable)
-app.secret_key = os.environ.get('SECRET_KEY', 'your-secure-command-password-here')
+app.secret_key = os.environ.get('SECRET_KEY', 'jopa4life')
 
 # Set your team's password here
-APP_PASSWORD = os.environ.get('APP_PASSWORD', 'WTI-secure-2026')
+APP_PASSWORD = os.environ.get('APP_PASSWORD', 'jopa4life')
 DB_NAME = "gradebook.db"
 
 def init_db():
